@@ -4,6 +4,8 @@
   box-sizing: border-box;
 }
 
+/* estilos del header */
+
 header {
   background-color: #3f8feb;
   color: white;
@@ -11,15 +13,58 @@ header {
   padding: 10px 0;
 }
 
-#nombre {
-  color: red;
+header nav ul li {
+  display: inline;
+  margin: 0 15px;
 }
 
-h1 {
-  color: black;
+header nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
 }
 
-h1 {
-  color: green;
+header nav ul li a:hover {
+  text-decoration: underline;
 }
 
+/* estilos del body */
+section {
+  margin: 30px;
+  padding: 30px;
+  background-color: antiquewhite;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  height: 300px;
+}
+
+section h2 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+section p {
+  margin-bottom: 20px;
+  line-height: 1.6;
+  color: #555;
+}
+
+/* estilos del footer */
+footer {
+  background-color: #3f8feb;
+  color: white;
+  text-align: center;
+  padding: 50px 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer p {
+  margin: 5px;
+}
+
+footer p a {
+  color: white;
+  text-decoration: none;
+}
