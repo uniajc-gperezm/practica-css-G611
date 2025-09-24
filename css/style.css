@@ -51,9 +51,10 @@
 }
 
 .habilidades {
-  padding: 20px 20px 10px 30px;
-  margin: 20px 30px 200px 30px;
-  border: solid 2px black;
+  height: 675px;
+  padding: 20px 20px 20px 30px;
+  margin: 20px 30px 10px 100px;
+  border: solid 2px rgb(0, 0, 0);
   border-radius: 20px;
   position: absolute;
 }
@@ -88,8 +89,8 @@
 }
 
 .caja-img {
-  height: 800px;
-  width: 800px;
+  height: 700px;
+  width: 700px;
   position: relative;
   right: -30%;
   top: -450px;
@@ -100,13 +101,72 @@
   width: 100%;
   object-fit: contain;
 }
+
+.body-galeria {
+  background-color: burlywood;
+}
+
+.galeria{
+  height: 70%;
+  width: 75%;
+  padding: 20px 20px 20px 30px;
+  margin: 40px 30px 10px 250px;
+  border: solid 2px rgb(0, 0, 0);
+  border-radius: 20px;
+  position: absolute;
+  background-color: white;
+
+}
+
+.galeria h2{
+  margin: 20px 0px 20px 0px;
+}
+
+.galeria h3{
+  margin: 20px 0px 20px 0px;
+}
+
+.galeria ul{
+  list-style: disc;
+}
+.galeria ul li{
+  margin: 10px 0px 10px 0px;
+}
+.art-galeria{
+display: flex;
+flex-wrap: wrap;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+gap: 30px;
+
+}
+
+.img-galeria{
+  height: 200px;
+  width: 200px;
+  border: 1px solid black;
+  margin: 5px;
+  position: relative;
+}
+
+.img-g{
+  height:100%;
+  width: 100%;
+  object-fit: fill;
+ 
+  
+}
+
+
 .footer {
   background-color: gray;
   text-align: center;
   color: white;
   position: fixed;
-  padding: 20px 0;
+  padding: 20px 0px 0px 0px;
   width: 100%;
+  margin: 5px 50px 0px 10px;
   bottom: 0;
   border: solid 2px black;
 }
